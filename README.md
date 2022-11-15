@@ -1,3 +1,5 @@
+This is just a mock website for a fake developer company. The purpose was to practice my restful API calls. The "Teams" section of the website is entirely generated from a free restful API using json objects. The team is listed in a flex container with their names and business motos. Further clicking on an individuals profile will give you further details using angular's route params.
+
 # Netdojo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
