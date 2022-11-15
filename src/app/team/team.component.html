@@ -1,0 +1,18 @@
+
+<div class="container border d-flex align-content-between justify-content-around flex-wrap">
+    <div  *ngFor="let user of users">
+        <div class="card mt-5 text-center" style="width: 18rem;">
+            <img src="/assets/images/ronswanson.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{user.name}}</h5>
+              <p  class="card-text">"{{user.company.bs}}"</p>
+              <a href="#" [routerLink]="['/user', user.id]" class="btn btn-primary">Profile</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="container border w-100 d-flex flex-column justify-content-around align-items-center"></div> -->
+
